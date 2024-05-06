@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Transition</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body data-barba="wrapper">
+    <div class="transition-div"></div>
+    <header>
+        <a href="index.html">Carly Osborn</a>
+        <p>About</p>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+        <div class="page-content">
+            <h1>
+                <span>CARLY</span>
+                <span>Osborn</span>
+            </h1>
+        </div>
+        <div class="page-content">
+            <p class="about_text">Capturing Moments, Creating Memories: Photography tailored to tell your unique story through visuals.
+                <span class="view_work-button" style="display: block;"><a href="pages/index.html">View work</span>
+            </p>
+            <p class="about_text-small">Boston-based Award-winning photographer</p>
+        </div>
+    </main>
+
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
